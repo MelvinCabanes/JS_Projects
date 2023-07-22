@@ -1,7 +1,8 @@
 const AuthForm = () => {
     return(
         <div>
-            <h1>AuthForm</h1>
+            <h1>Melvin Cabanes</h1>
+
         </div>
     );
 } 
