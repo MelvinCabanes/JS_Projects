@@ -1,6 +1,8 @@
 //THIS IS LIKE THE HTML PAGE
 //THIS IS WHERE WE EDIT OUR CONTENTS ON OUR PAGE
 import Image from "next/image";
+import AuthForm from "./components/AuthForm";
+
 export default function Home() {
     return (
       <div
@@ -35,7 +37,7 @@ export default function Home() {
                 Sign in to your account
             </h2>
         </div>
-        {/* AuthForm */}
+        <AuthForm />
       </div>
     )
   }
